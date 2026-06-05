@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+EDA/.venv/
+
+# Environment variables
+.env
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+*.iml
+
+# Caches / logs
+*.log
+.cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data outputs
+data/*.db
+data/*.sqlite
+data/*.log
+data/*.tmp
+data/transformed/*.csv
+
+# Keep placeholders
+!data/.gitkeep
+!data/transformed/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# Backups / temp
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Generated presentation files
+*.pptx
